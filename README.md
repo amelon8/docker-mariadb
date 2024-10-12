@@ -29,9 +29,9 @@ mariadb_999                amelon1/docker-mariadb:1   "docker-entrypoint.s…"  
 ```
 
 ## Usage
-* Connect to Adminer, database management tool.
+* Connect to Adminer, a database management tool. Using Adminer UI, you can create a new database table, instead a new row of data, query the database, etc.
     * http://localhost:10000/
-* Connect to database (first connect to the db container).
+* Connect to database from the shell (first connect to the `db` container). The user name and passwords are `root` and `db-root`.
 ```
 % docker compose exec db bash
 docker# mariadb -u root -p db-root
