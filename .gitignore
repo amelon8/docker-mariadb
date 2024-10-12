@@ -1,0 +1,7 @@
+code/postfix/sasl_passwd
+data/wiki/images_mementos_not_public_accessible
+node_modules/
+npm-debug.log
+.DS_Store
+.idea
+*.swp
